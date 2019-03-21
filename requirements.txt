@@ -1,6 +1,6 @@
 Click==7.0
 Flask==1.0.2
-flaskr==1.0.0
+-e git+https://github.com/edward01/heroku_test.git@97181a4abe076e18ebfc4ab91a21ad8750ddb621#egg=flaskr
 itsdangerous==1.1.0
 Jinja2==2.10
 MarkupSafe==1.1.1
