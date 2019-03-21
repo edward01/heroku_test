@@ -1,0 +1,19 @@
+https://devcenter.heroku.com/articles/getting-started-with-python
+
+$ brew install heroku/brew/heroku
+$ heroku login
+#---- cd to the project parent
+
+$ heroku create
+$ git push heroku master
+
+$ heroku ps:scale web=1			# Ensure that at least one instance of the app is running
+$ heroku open					# open the app website
+
+
+# view logs
+heroku logs --tail
+
+# define procfile
+https://devcenter.heroku.com/articles/getting-started-with-python#define-a-procfile
+
